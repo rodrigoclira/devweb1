@@ -1,0 +1,11 @@
+#logo {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.foto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
