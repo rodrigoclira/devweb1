@@ -17,6 +17,14 @@
         }
     </style>
     <!-- <link rel="stylesheet" href="base.css"> -->
+    <script type="text/javascript" src="script.js"></script>
+
+    <!-- <script>
+        function myFunction(){
+            document.getElementById("demo").innerHTML += "Pare de me clicar! ";
+        }
+    </script>
+    -->
   </head>
   <body>
     <h1>Informações sobre o curso </h1>
@@ -31,7 +39,13 @@
     </div>
 
     <div>
-        <img src="./img/mariafarinha.jpg" alt='Maria Farinha' class="foto"/>
+        <img src="./img/mariafarinha.jpg" alt='Maria Farinha' class="foto" onload="loadImage()"/>
     </div>
+
+    <p id="demo"/>
+
+    <button type="button" onclick="myFunction()">Não me clique</button>
+
+
   </body>
 </html>
