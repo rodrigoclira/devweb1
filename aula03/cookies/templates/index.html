@@ -1,0 +1,14 @@
+<html>
+   <body>
+      <form action = "/" method = "POST">
+          {% if user %}
+            <p><h3>Olá {{user}} !</h3></p>
+            <p><h3>Caso deseje, atualize seu nome:</h3></p>
+          {% else %}
+            <p><h3>Informe o seu nome:</h3></p>
+          {% endif %}
+         <p><input type = 'text' name = 'nm'/></p>
+         <p><input type = 'submit' value = 'Login'/></p>
+      </form>
+   </body>
+</html>
