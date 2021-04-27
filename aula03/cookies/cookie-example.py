@@ -15,22 +15,3 @@ def index():
         resp = render_template('index.html', user = username)
         print(username)
     return resp
-
-@app.route("/cookies")
-def cookies():
-
-    resp = make_response("Set cookies")
-
-    cookies = request.cookies
-
-    print(cookies)
-
-    # resp.set_cookie(
-    #     "flavor",
-    #     value="chocolate chip",
-    #     max_age=10,
-    #     path=request.path
-    # )
-
-    resp.set_cookie("chocolate type", "dark")
-    resp.set_cookie("chewy", "yes")
