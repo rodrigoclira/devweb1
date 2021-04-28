@@ -1,6 +1,8 @@
 # Projeto Exemplo de como usar cookies
 
-## Instalar dependências através definidas no requirements.txt
+## Instalar  definidas no requirements.txt 
+
+Susgestão: crie um ambiente virtual usando virtualenv
 
 ```
 $ pip install -r requirements.txt
