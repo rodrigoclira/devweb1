@@ -1,4 +1,4 @@
-# Projeto Exemplo de como usar Cookie
+# Projeto Exemplo de como usar cookies
 
 ## Instalar dependências através definidas no requirements.txt
 
