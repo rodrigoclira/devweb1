@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Desenvolvimento de Sistemas Web 1</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <!-- javascript  -->
+  <script>
+    let a   = 10;
+    let b   = 3;
+    let c   = 15;
+    const d = '5';
+    let e   = 'Meu nome';
+    const f = 'é Pedro';
+    const g = 1;
+    
+    console.groupCollapsed('Adição');
+      console.log(a + b); // 13
+      console.log(a + d); // 105 
+      console.log(typeof (a+d))
+      console.log(e + ' ' + f);
+      console.log(e += ' não é Jhonny');
+    console.groupEnd();
+
+    console.group('Multiplicação');
+      console.log(a * 3); // 30
+      console.log(a * b); // 30
+      console.log(b * c); // 45
+    console.groupEnd();
+
+    a++;
+    b--;
+    --b;
+    c += a;
+    console.group('Incremento');
+      console.log(a); // 11    
+      console.log(b); // 1
+      console.log(c); // 25
+    console.groupEnd();
+    
+    g++
+    console.log(g)
+  </script>
+</body>
+
+</html>

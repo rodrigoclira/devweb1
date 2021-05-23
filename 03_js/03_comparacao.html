@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Desenvolvimento de Sistemas Web 1</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <!-- javascript  -->
+  <script>
+    const original = 'pedro';
+    const clone = 'PEDRO';
+
+    console.groupCollapsed('String');
+    console.log(original == 'pedro'); // true
+    console.log(original == clone); // false
+    console.log(original == clone.toLowerCase()); // true
+    console.groupEnd();
+
+    const num1 = 10;
+    const num2 = '10';
+
+    console.groupCollapsed('Numbers');
+    console.log(num1 == num2); // true - permite conversão
+    console.log(num1 === num2); // false - os tipos precisam ser o mesmo
+    console.log(num1 != num2); // false
+    console.log(num1 !== num2); // true
+    console.groupEnd();
+
+    let what; // undefined
+    let thing = null;
+
+    console.groupCollapsed('Booleans');
+    console.log(Boolean(what)); // false
+    console.log(Boolean(thing)); // false
+    console.log(Boolean(num1)); // true
+    console.log(Boolean(num2)); // true
+    console.log(Boolean({})); // true - objects vazios são considerados true
+    console.log(Boolean([])); // true - arrays vazios são considerados true
+    console.groupEnd();
+
+    const firstArr = [1, 2, 3];
+    const secondArr = [1, 2, 3];
+    const firstObj = { color: 'red' };
+    const secondObj = { color: 'red' };
+
+    console.groupCollapsed('Objects e Arrays');
+    console.log(firstArr === secondArr); // false - Trata como referência.
+    console.log(firstObj === secondObj); // false - Trata como referência.
+    console.groupEnd();
+
+    console.group('And Or');
+    console.log(Boolean('blah') && Boolean('thing')); // true
+    console.log(Boolean('blah') && Boolean('')); // false
+    console.log(Boolean('blah') || Boolean('')); // true
+    console.log(Boolean('') || Boolean('')); // false
+    console.groupEnd();
+  </script>
+</body>
+
+</html>
