@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Desenvolvimento de Sistemas Web 1</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="dogs-list"></div>
+
+  <!-- javascript  -->
+  <script>
+/*
+    const name     = prompt('Qual o seu nome?');
+    const username = 'chrisoncode';
+    */
+
+    // if
+    // if (name == 'pedro' || name == 'rafael') {
+    //   alert('Oi!');
+    // } else if (name == 'holly') {
+    //   console.log('é  holly');
+    // } else {
+    //   console.log('não é pedro');
+    // }
+
+    // for loop
+    const dogsList = document.querySelector('.dogs-list');
+    const dogs = [
+      { name: 'pitucha', type: 'chihuahua' },
+      { name: 'xuxa', type: 'bernese' }
+    ];
+
+    // for (let i = 0; i < dogs.length; i++) {
+    //   // grab the dog
+    //   const dog         = dogs[i];
+    //   const dogData     = document.createElement('div');
+    //   dogData.classList.add('jumbotron', 'text-center');
+    //   dogData.innerText = `${dog.name} é um ${dog.type}`;
+    //   dogsList.appendChild(dogData);
+    // }
+
+    // while loop
+    // let i = 0;
+    // while (i < dogs.length) {
+    //   // grab the dog
+    //   const dog         = dogs[i];
+    //   const dogData     = document.createElement('div');
+    //   dogData.classList.add('jumbotron', 'text-center');
+    //   dogData.innerText = `${dog.name} é um ${dog.type}`;
+    //   dogsList.appendChild(dogData);
+
+    //   i++;
+    // }
+
+    // do while loop
+    // let i = 0;
+    // do {
+    //   // grab the dog
+    //   const dog         = dogs[i];
+    //   const dogData     = document.createElement('div');
+    //   dogData.classList.add('jumbotron', 'text-center');
+    //   dogData.innerText = `${dog.name} é um ${dog.type}`;
+    //   dogsList.appendChild(dogData);
+
+    //   i++;
+    // } while (i < dogs.length);
+
+    // for...of iterator
+    for (let dog of dogs) {
+      const dogData = document.createElement('div');
+      dogData.classList.add('jumbotron', 'text-center');
+      dogData.innerText = `${dog.name} é um ${dog.type}`;
+      dogsList.appendChild(dogData);
+    }
+
+  </script>
+</body>
+
+</html>

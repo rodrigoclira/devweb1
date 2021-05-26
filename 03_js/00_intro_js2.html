@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>O que javascript consegue fazer?</h2>
+
+<p>JavaScript pode mudar atributos HTMLs.</p>
+
+<p>No exemplo abaixo é modificado o atributo src (source) da imagem.</p>
+
+<button onclick="mudarImagem('img/pic_bulbon.gif')">Ligar</button>
+
+<img id="myImage" src="img/pic_bulboff.gif" style="width:100px">
+
+<button onclick="mudarImagem('img/pic_bulboff.gif')">Desligar</button>
+
+<script>
+    
+    function mudarImagem(caminhoImagem){
+        document.getElementById('myImage').src=caminhoImagem;
+    }
+
+</script>
+</body>
+</html>

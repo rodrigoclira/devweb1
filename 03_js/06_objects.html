@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Desenvolvimento de Sistemas Web 1</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <!-- start javascript -->
+  <script>
+
+    const hero = {
+      name: 'Bruce Wayne',
+      alias: 'Batman',
+      catchphrase: 'Para a Batcaverna!',
+      speak: function () {
+        return 'Atenção! ' + this.catchphrase;
+      },
+      attack: function (sound) {
+        //return '(bate no vilão) ' + sound;
+        return `(bate no vilão) ${sound}`;
+      }
+    };
+
+    // acessando uma propriedade
+    const thingToLookFor = 'alias';
+
+    console.log(hero.name); // Bruce Wayne
+    console.log(hero['name']); // Bruce Wayne
+    console.log(hero[thingToLookFor]); // Batman
+
+    // acessando métodos(functions)
+    console.log(hero.speak);
+    console.log(hero.speak());
+    console.log(hero.attack('POWWWWW'));
+
+    'Aqui é minha string'.toUpperCase()
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Desenvolvimento de Sistemas Web 1</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="jumbotron text-center">
+    <button type="button" class="btn btn-danger" onclick="saySomething('Esse é o primeiro botão')">
+     Meu botão
+    </button>
+    <button type="button" class="btn btn-danger" onclick="saySomething('Esse é o segundo botão')">
+      Meu segundo botão
+    </button>
+  </div>
+
+  <!-- start javascript -->
+  <script>
+
+
+    function saySomething(message = 'até mais', whisper = false) {
+      if (whisper) {
+        console.log(`%c${message}`, 'font-size:5px');
+      } else {
+        console.log(message);
+      }
+    }
+
+    saySomething('Oi', true);
+    saySomething('Meu nome é Rodrigo', true);
+    saySomething();
+
+    // function squared(a) {
+    //   return a * a;
+    // }
+
+    // const newSquared = squared(3);
+    // console.log(newSquared);
+
+    const squared = function(a){
+      return a * a;
+    }
+
+    const squared = (a) => {
+      return a * a;
+    }
+    const otherSquared = squared;
+
+    aperte();
+
+    function aperte() {
+      console.log('aperte aqui!');
+    }
+  </script>
+</body>
+
+</html>
