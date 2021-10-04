@@ -20,10 +20,10 @@
 
     const first = 'isso é uma string';
     const second = String('isso é uma string');
-    // console.log('this is a string'.toUpperCase());
-    // console.log(String('this is a string').toUpperCase());
+    console.log('this is a string'.toUpperCase());
+    console.log(String('this is a string').toUpperCase());
 
-    // console.log(first === second);
+    //console.log(first === second);
 
     console.groupCollapsed('Primitives vs Objects');
     console.log(first === second); // true
@@ -45,7 +45,7 @@
 
     // numbers and math
     console.groupCollapsed('Numbers e Math');
-    console.log(1..toString()); // 1
+    console.log(1..toString()); // 1 os números são float em javascript por isso os dois pontos (um do decimal e outro para acessar o método)
     console.log((1).toString()); // 1
     console.log(Number.isInteger(5)); // true
     console.log(Number.isInteger(5.43)); // false

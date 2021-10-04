@@ -27,7 +27,7 @@
   <!-- Opção 2: usando eventos diretamento no elemenos em js -->
   <div class="jumbotron text-center">
     <button class="btn btn-danger coffee-btn">
-      Get Coffee
+      Mudar para Coffee
     </button>
     <button class="btn btn-danger coffee-btn">
       Mudar para Coffee
@@ -50,13 +50,14 @@
     // 2 anexar event listeners
 
     function goCoocoo() {
-      document.body.style.backgroundColor = '#C00C00';
+      //const body = document.querySelector("body");
+      document.body.style.backgroundColor = '#C00C00'; // vermelho
     }
 
     // Opção 2 ========================================
     const coffeeButtons = document.querySelectorAll('.coffee-btn');
     // coffeeButton.onclick = function() {
-    //   document.body.style.backgroundColor = '#C0FFEE';
+    //   document.body.style.backgroundColor = '#C0FFEE'; //Azul piscina
     // }
     // coffeeButton.onmouseenter = goCoocoo;
 
