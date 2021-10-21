@@ -11,6 +11,6 @@ Lista Não Ordenada- http://rodrigoclira.github.io/devweb1/02_html/listaNaoOrden
 
 table - http://rodrigoclira.github.io/devweb1/02_html/tabela.html
 
-table span - http://rodrigoclira.github.io/devweb1/02_html/tabelaSpan.html
+table span - http://rodrigoclira.github.io/devweb1/02_html/tableSpan.html
 
 links - http://rodrigoclira.github.io/devweb1/02_html/links.html
