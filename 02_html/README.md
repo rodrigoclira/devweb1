@@ -9,6 +9,8 @@ Lista Aninhada - - http://rodrigoclira.github.io/devweb1/02_html/listaAninhada.h
 
 Lista Não Ordenada- http://rodrigoclira.github.io/devweb1/02_html/listaNaoOrdenada.html
 
+Lista de Definição - http://rodrigoclira.github.io/devweb1/02_html/ListaDefinicao.html
+
 table - http://rodrigoclira.github.io/devweb1/02_html/tabela.html
 
 table span - http://rodrigoclira.github.io/devweb1/02_html/tableSpan.html
