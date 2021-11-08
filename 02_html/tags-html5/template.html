@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title>Template Tag</title>
+    </head>
+    <body>
+	
+		<div id="ftlContent">
+		<h3>IFPE Campus Paulista</h3>
+		</div>
+    	
+        <!-- Start Template Tag -->
+			<template id="myContent">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+			</template>
+		<!-- Start Template Tag -->
+		
+
+		<!-- JavaScript function: Clones the template and appends it to the normal content -->
+		<button onclick="useTemplate();">Click Here!.</button>
+		<script type="text/javascript">
+			function useTemplate() {
+			var myTemplate = document.getElementById('myContent'),
+				normalContent = document.getElementById('ftlContent'),
+				clonedTemplate = myTemplate.content.cloneNode(true);
+				normalContent.appendChild(clonedTemplate);
+				}
+		</script>
+        
+    </body>
+</html>

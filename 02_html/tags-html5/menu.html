@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title>Menu Tag</title>
+    </head>
+    <body>
+    	
+       <script type="text/javascript">
+			function changeColor (thisColor) {
+			 document.getElementById('myPic').style.borderColor = thisColor;
+			}
+		</script>
+		<img id="myPic" src="./img/logo-ifpe.png" contextmenu="FreeTimeLearning" style="float:left;border:10px solid black;" alt="F T L"><br />
+		<p style="width:150px;float:left;padding-left:8px;">Right click on the image to invoke the context menu. </p>
+		<p><strong>Note</strong>: Only supported in Firefox at time of writing.</p>
+		<menu type="context" id="myPhoto">
+		 <menu label="Change Border Color...">
+		  <menuitem label="Red" onclick="changeColor('red');"></menuitem>
+		  <menuitem label="Green" onclick="changeColor('green');"></menuitem>
+		  <menuitem label="Blue" onclick="changeColor('blue');"></menuitem>
+		  <menuitem label="Black (default)" onclick="changeColor('black');"></menuitem>
+		  <menuitem label="Orange" onclick="changeColor('orange');"></menuitem>
+		  
+		 </menu>
+		</menu>
+        
+    </body>
+</html>

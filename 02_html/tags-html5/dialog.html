@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title>Dialog Tag</title>
+    </head>
+    <body>
+    	
+		<style type="text/css">
+		    .dialog_box{width:70%;background-color:#0099da; color:#FFF;border:1px dotted black;}
+		</style>
+		
+		<!-- Start Dialog Box-->
+        <div>
+			<dialog id="dialog_1" class="dialog_box">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+				<button id="hide">Close</button>
+			</dialog>
+			
+			<button id="show">Click Here!</button>
+	    </div>
+		<!-- End Dialog Box -->
+		
+		<!-- Start JavaScript Show/Close -->
+		<script type="text/JavaScript">
+		(function() {  
+			var dialog = document.getElementById('dialog_1');  
+			document.getElementById('show').onclick = function() {  
+				dialog.show();  
+			};  
+			document.getElementById('hide').onclick = function() {  
+				dialog.close();  
+			};  
+		})(); 
+		</script>
+		<!-- End JavaScript Show/Close -->
+        
+    </body>
+</html>
