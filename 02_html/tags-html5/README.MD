@@ -1,9 +1,11 @@
 
 # HTML 5
 
-Abaixo é exibido um layout padrão do HTML5
+![image](https://user-images.githubusercontent.com/276077/140682013-9a1d829e-a3e7-4f3b-9889-7506de5f3778.png)
 
-![Layout Padrão HTML5](https://user-images.githubusercontent.com/276077/140681846-ae4d60fa-f5f8-4705-afe3-2cdbb7ba8bea.png)
+<!--
+Abaixo é exibido um layout padrão do HTML5
+ ![Layout Padrão HTML5](https://user-images.githubusercontent.com/276077/140681846-ae4d60fa-f5f8-4705-afe3-2cdbb7ba8bea.png) -->
 
 
 
