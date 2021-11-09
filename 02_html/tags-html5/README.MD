@@ -1,10 +1,14 @@
 
 # HTML 5
 
+## HTML Semântico
+
 ![image](https://user-images.githubusercontent.com/276077/140682013-9a1d829e-a3e7-4f3b-9889-7506de5f3778.png)
 
+Inspecionar site: https://rodrigoclira.github.io/devweb1/02_html/tags-html5/tagSemantico.html
 
 
+## Exemplos do Repositório
 Assunto| Arquivo no Repositório | Arquivo no GH Pages
 ---:|:---:|:---:|
 **HTML Padrão** |  | 
@@ -29,7 +33,7 @@ nav | [nav.html](https://github.com/rodrigoclira/devweb1/blob/main/02_html/tags-
 template | [template.html](https://github.com/rodrigoclira/devweb1/blob/main/02_html/tags-html5/template.html)| https://rodrigoclira.github.io/devweb1/02_html/tags-html5/template.html
 track | [track.html](https://github.com/rodrigoclira/devweb1/blob/main/02_html/tags-html5/track.html)| https://rodrigoclira.github.io/devweb1/02_html/tags-html5/track.html
 video | [video.html](https://github.com/rodrigoclira/devweb1/blob/main/02_html/tags-html5/video.html)| https://rodrigoclira.github.io/devweb1/02_html/tags-html5/video.html
-
+tagSemantico.html| [tagSemantico.html](https://github.com/rodrigoclira/devweb1/blob/main/02_html/tags-html5/tagSemantico.html)| https://rodrigoclira.github.io/devweb1/02_html/tags-html5/tagSemantico.html
 
 
 <!--
