@@ -28,10 +28,16 @@ Vídeo| [video.html](https://github.com/rodrigoclira/devweb1/blob/main/02_html/v
 ## Sites Relacionados
 
 [Como os inputs se comportam em dispositivos móveis?](http://mobileinputtypes.com/)
+
 [Flex box Playground](https://flexbox.tech/)
+
 [Can I use? atributos CSS](https://caniuse.com/)
+
 [CSS CheatSheet](https://htmlcheatsheet.com/css/)
+
 [HTML CheatSheet](https://htmlcheatsheet.com/html/)
+
 [JS CheatSheet](https://htmlcheatsheet.com/js/)
+
 [CSS Gradient](https://cssgradient.io/)
 
