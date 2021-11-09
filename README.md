@@ -7,14 +7,15 @@ Exemplos de projetos usando os conceitos apresentados na disciplina de **Desenvo
 > Os códigos podem mudar ou desaparecer sem nenhum aviso
 
 
-Assunto| Arquivo | Online 
----:|:---:|:---:|
-**HTTP** |  | 
-. | [01_http](https://github.com/rodrigoclira/devweb1/tree/main/01_http/cookies)| -
-**HTML** |  | 
-. | [02_html](https://github.com/rodrigoclira/devweb1/tree/main/02_html)| https://github.com/rodrigoclira/devweb1/
-**JS**|  | 
-. | [03_js](https://github.com/rodrigoclira/devweb1/tree/main/03_js) | 
+Assunto| Arquivo 
+---:|:---:
+**HTTP** |   
+. | [01_http](https://github.com/rodrigoclira/devweb1/tree/main/01_http/cookies)
+**HTML** | 
+Padrão | [02_html](https://github.com/rodrigoclira/devweb1/tree/main/02_html)
+Tags HTML 5 | [02_html/tags-html5](https://github.com/rodrigoclira/devweb1/tree/main/02_html/tags-html5)
+**JS**|  
+. | [03_js](https://github.com/rodrigoclira/devweb1/tree/main/03_js) 
 
 
 <br>
